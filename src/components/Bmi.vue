@@ -1,5 +1,5 @@
 <template>
-  <div class="main container">
+  <div class="main container animate__animated animate__zoomIn">
     <form @submit.prevent="bmicalc()" class="s12 container">
       <div class="col container">
         <div class="input-field col s6">

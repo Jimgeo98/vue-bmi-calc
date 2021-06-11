@@ -1,5 +1,5 @@
 <template>
-    <div class="container table">
+    <div class="container table animate__animated animate__zoomIn">
         <h4 class="container">BMI range</h4>
         <hr>
          <table class="container highlight">

@@ -23,6 +23,18 @@
     font-weight: bold;
 }
 
+.btn{
+  border-radius: 20px;
+}
+
+.btn:hover{
+  transform: scale(1.05);
+}
+
+.btn:active{
+  transform: scale(0.95);
+}
+
 .collection .bad,
 .collection .good,
 .collection .under {
