@@ -1,0 +1,7 @@
+<template>
+  <nav class="indigo darken-4">
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo center">BMI Calculator</a>
+    </div>
+  </nav>
+</template>

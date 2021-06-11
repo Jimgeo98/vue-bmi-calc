@@ -1,0 +1,103 @@
+* {
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.collection {
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.collection #bmi{
+    margin-top: 30px;
+}
+
+.collection-item .title{
+    font-weight: bold;
+}
+
+.collection .bad,
+.collection .good,
+.collection .under {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+    letter-spacing: 1px;
+}
+
+.collection .good {
+  color: #26de81;
+}
+
+.collection .bad {
+  color: #de2c26;
+}
+
+.collection .under {
+  color: #f5df16;
+}
+
+.highlight{
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+.below{
+  color: #f7b731;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.normal{
+  color: #20bf6b;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.warning{
+  color: #fa8231;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.danger{
+  color: #eb3b5a;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.foo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+}
+
+.table {
+  margin-top: 80px;
+}
+
+.foo a {
+  color: white;
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .page-footer {
+    position: relative;
+    margin-top: 80px;
+  }
+}
