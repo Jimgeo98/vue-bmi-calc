@@ -6,7 +6,7 @@
           <i class="material-icons prefix">height</i>
           <input 
             id="icon_prefix"
-            type="text"
+            type="tel"
             class="validate"
             v-model="height"
             required
@@ -35,7 +35,7 @@
         <li class="collection-item container avatar">
           <img src="https://media.self.com/photos/5be5c8322ef8df6252534830/master/pass/foot-scale.jpg" alt="" class="circle" />
           <p class="title">Your BMI is: </p>
-          <p id="bmi" v-bind:class="{ good: bmi > 19 && bmi < 26, under: bmi < 19 && bmi > 5, bad: bmi > 26}"> {{bmi}} </p>
+          <p id="bmi" v-bind:class="{ good: bmi > 19 && bmi < 26, under: bmi < 19 && bmi > 0, bad: bmi > 26}"> {{bmi}} </p>
         </li>
       </ul>
     </div>
